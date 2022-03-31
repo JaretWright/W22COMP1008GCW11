@@ -8,11 +8,6 @@ public class Rectangle {
         setWidth(width);
     }
 
-    public boolean isFunny()
-    {
-        return true;
-    }
-
     public double getWidth() {
         return width;
     }
@@ -37,7 +32,7 @@ public class Rectangle {
      * @param height
      */
     public void setHeight(double height) {
-        if (height > 0)
+        if (height > 0 && height<200)
             this.height = height;
         else
             throw new IllegalArgumentException("Height must be greater than 0");
