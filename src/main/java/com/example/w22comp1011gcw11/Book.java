@@ -1,6 +1,8 @@
 package com.example.w22comp1011gcw11;
 
 public class Book {
+//
+
     private String title, author, imageLocation;
     private double price;
 
